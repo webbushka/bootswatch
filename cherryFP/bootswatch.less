@@ -1,0 +1,110 @@
+// Bootswatch
+// Swatch: Cherry FP
+// Version: 2.1.1
+// -----------------------------------------------------
+
+//
+// TYPOGRAPHY
+// -----------------------------------------------------
+
+address, p, span, a {font-family: @altFontFamily;}
+.nav *, .alert *, .btn, .label, form *{font-family: @baseFontFamily;}
+
+//
+// SCAFFOLDING
+// -----------------------------------------------------
+
+//
+// NAVBAR
+// -----------------------------------------------------
+
+.navbar-inverse {
+	.navbar-search .search-query {box-shadow: none;}
+}
+
+//
+// NAV
+// -----------------------------------------------------
+
+.navbar .nav > li > .dropdown-menu {.border-radius(0);
+	&:before, &:after {border: none;}
+}
+.dropdown-menu, 
+.nav-pills > li > a,
+.nav-tabs > li > a,
+.tabs-below > .nav-tabs > li > a,
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a,
+.pager li > a,
+.pager li > span {
+	.border-radius(0);
+}
+.nav-tabs.nav-stacked {
+	&> li:first-child > a, 
+	&> li:last-child > a {
+		.border-radius(0);
+	}
+}
+
+//
+// BUTTONS
+// -----------------------------------------------------
+
+//
+// TABLES
+// -----------------------------------------------------
+
+//
+// FORMS
+// -----------------------------------------------------
+
+//
+// DROPDOWNS
+// -----------------------------------------------------
+
+//
+// ALERTS, LABELS, BADGES
+// -----------------------------------------------------
+
+.progress .bar {background: #225e9b;}
+.progress-info.progress-striped .bar, 
+.progress-striped .bar-info {
+	background: @infoText;
+}
+.progress-danger.progress-striped .bar, 
+.progress-striped .bar-danger{
+	background: @errorText;
+}
+.progress-success.progress-striped .bar, 
+.progress-striped .bar-success {
+	background: @successText;
+}
+.progress-warning.progress-striped .bar, 
+.progress-striped .bar-warning {
+	background: @warningText;
+}
+.popover{border: 2px solid @popoverArrowColor;}
+.popover-title{font-weight: bold; font-size: 16px;}
+.modal, .modal-footer {.border-radius(0);}
+
+//
+// MISC
+// -----------------------------------------------------
+
+.breadcrumb {background: @btnBackground;
+	&> .active {color: @grayDark;}
+}
+.pagination ul > .active > a, 
+.pagination ul > .active > span {
+	color: @grayDark;
+}
+.pagination ul > li > a:hover, 
+.pagination ul > .active > a, 
+.pagination ul > .active > span {
+	background: @btnBackground;
+}
+
+
+//
+// MEDIA QUERIES
+// -----------------------------------------------------
