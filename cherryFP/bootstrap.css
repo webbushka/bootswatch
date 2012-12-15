@@ -5115,6 +5115,18 @@ a.badge:hover {
 .affix {
   position: fixed;
 }
+.navbar .brand {
+  padding: 0 20px;
+}
+.brand {
+  background: url('cherry_logo.png') no-repeat 55%;
+  width: 80px;
+  height: 40px;
+  text-indent: -9999px;
+}
+.navbar-inverse .brand {
+  background-image: url('cherry_logo_inverse.png');
+}
 address,
 p,
 span,

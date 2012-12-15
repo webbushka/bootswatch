@@ -851,6 +851,9 @@ a.label:hover,a.badge:hover{color:#ffffff;text-decoration:none;cursor:pointer;}
 .show{display:block;}
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
+.navbar .brand{padding:0 20px;}
+.brand{background:url('cherry_logo.png') no-repeat 55%;width:80px;height:40px;text-indent:-9999px;}
+.navbar-inverse .brand{background-image:url('cherry_logo_inverse.png');}
 address,p,span,a{font-family:Georgia,"Times New Roman",Times,serif;}
 .nav *,.alert *,.btn,.label,form *{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;}
 .navbar-inverse .navbar-search .search-query{box-shadow:none;}
